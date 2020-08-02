@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgTickicon(props) {
   return (
@@ -11,7 +11,7 @@ function SvgTickicon(props) {
         fillOpacity={0.3}
       />
     </svg>
-  );
+  )
 }
 
-export default SvgTickicon;
+export default SvgTickicon

@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgSearchicon(props) {
   return (
@@ -23,7 +23,7 @@ function SvgSearchicon(props) {
         mask="url(#search_icon_svg__a)"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgSearchicon;
+export default SvgSearchicon

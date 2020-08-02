@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgFilesboardicon(props) {
   return (
@@ -16,7 +16,7 @@ function SvgFilesboardicon(props) {
         fill="#007AFF"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgFilesboardicon;
+export default SvgFilesboardicon

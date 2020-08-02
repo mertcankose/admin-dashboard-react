@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgTableicon(props) {
   return (
@@ -11,7 +11,7 @@ function SvgTableicon(props) {
         fill="#C7C9CB"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgTableicon;
+export default SvgTableicon

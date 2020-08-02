@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgSettingsicon(props) {
   return (
@@ -18,7 +18,7 @@ function SvgSettingsicon(props) {
         </clipPath>
       </defs>
     </svg>
-  );
+  )
 }
 
-export default SvgSettingsicon;
+export default SvgSettingsicon

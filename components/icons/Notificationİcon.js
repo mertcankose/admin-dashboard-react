@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgNotificationicon(props) {
   return (
@@ -10,7 +10,7 @@ function SvgNotificationicon(props) {
         fill="currentColor"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgNotificationicon;
+export default SvgNotificationicon

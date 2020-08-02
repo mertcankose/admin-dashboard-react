@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgPaperplaneicon(props) {
   return (
@@ -32,7 +32,7 @@ function SvgPaperplaneicon(props) {
         </clipPath>
       </defs>
     </svg>
-  );
+  )
 }
 
-export default SvgPaperplaneicon;
+export default SvgPaperplaneicon

@@ -1,0 +1,11 @@
+:root{
+    --c-theme: #F4F8F9; /*grayish*/
+    --c-primary: #fff;
+    --c-primary-10: rgba(65,146,236,.10);
+    --c-primary-40: rgba(65,146,236,.40);
+    --c-red: #FF7878;
+    --c-yellow: #FFD012;
+    --c-blue: #4DA1FF;
+
+    --fade:120ms;
+}

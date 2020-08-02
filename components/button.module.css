@@ -1,3 +1,6 @@
+/*it doesn't seen this class because conflict classNames*/
+/*we should use className npm package classes merge*/
 .button{
-    background-color: #ccc;
+    background:transparent;
+    cursor: pointer;
 }

@@ -1,0 +1,33 @@
+.navButton { 
+  /*background-color: var(--c-primary);*/ /*already transparent at main button*/
+  padding:12px;
+  position: relative;
+  transition: var(--fade);
+  &:hover{
+    background-color: var(--c-primary-10)
+  }
+  svg{
+    //font-size: 42px;
+    
+  }
+}
+
+.navButtonSelected{
+  background-color: var(--c-primary-40);
+}
+
+.notify{
+  position:absolute;
+  left: 50px;
+  top: 8px;
+  background-color: var(--c-red);
+  color:var(--c-primary);
+  //min-width:24px;
+  height:28px;
+  font-size:13px;
+  padding-right:8px;
+  padding-left:8px;
+  border-radius:50%;
+  display:flex;
+  align-items: center;
+}

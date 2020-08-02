@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgFill2(props) {
   return (
@@ -15,7 +15,7 @@ function SvgFill2(props) {
         fill="#4DA1FF"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgFill2;
+export default SvgFill2

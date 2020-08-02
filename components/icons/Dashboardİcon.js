@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgDashboardicon(props) {
   return (
@@ -22,7 +22,7 @@ function SvgDashboardicon(props) {
         fill="#007AFF"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgDashboardicon;
+export default SvgDashboardicon

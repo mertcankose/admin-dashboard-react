@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgCalendaricon(props) {
   return (
@@ -10,7 +10,7 @@ function SvgCalendaricon(props) {
         fill="currentColor"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgCalendaricon;
+export default SvgCalendaricon

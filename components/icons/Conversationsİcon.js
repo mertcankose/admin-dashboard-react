@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgConversationsicon(props) {
   return (
@@ -16,7 +16,7 @@ function SvgConversationsicon(props) {
         fill="#007AFF"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgConversationsicon;
+export default SvgConversationsicon

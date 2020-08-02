@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgCardsicon(props) {
   return (
@@ -10,7 +10,7 @@ function SvgCardsicon(props) {
         fill="#007AFF"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgCardsicon;
+export default SvgCardsicon

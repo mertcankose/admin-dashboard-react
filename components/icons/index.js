@@ -1,3 +1,4 @@
+export { default as BaseNotify } from './BaseNotify'
 export { default as Calendarİcon } from './Calendarİcon'
 export { default as Cardsİcon } from './Cardsİcon'
 export { default as Conversationsİcon } from './Conversationsİcon'

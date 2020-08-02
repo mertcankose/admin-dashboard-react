@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgSessionsicon(props) {
   return (
@@ -19,7 +19,7 @@ function SvgSessionsicon(props) {
         </clipPath>
       </defs>
     </svg>
-  );
+  )
 }
 
-export default SvgSessionsicon;
+export default SvgSessionsicon

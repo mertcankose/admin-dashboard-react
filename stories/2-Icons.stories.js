@@ -25,5 +25,6 @@ export const Icon = () => (
         <Icons.Conversationsİcon/>
         <Icons.Cardsİcon/>
         <Icons.Calendarİcon/>
+        <Icons.BaseNotify/>
     </div>
 );

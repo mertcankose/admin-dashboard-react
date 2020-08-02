@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgLogo(props) {
   return (
@@ -24,7 +24,7 @@ function SvgLogo(props) {
         </clipPath>
       </defs>
     </svg>
-  );
+  )
 }
 
-export default SvgLogo;
+export default SvgLogo
