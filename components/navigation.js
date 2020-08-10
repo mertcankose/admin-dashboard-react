@@ -11,39 +11,52 @@ import {
 } from './icons'
 import styles from './navigation.module.css'
 
-function Navigation({ flat=false, selectedKey }) {
+const MENU = [
+  {
+    key: 'dashboard',
+    icon: <Dashboardİcon />
+  },
+  {
+    key: 'session',
+    icon: <Sessionsİcon />
+  },
+  {
+    key: 'meeting',
+    icon: <Meetingsİcon />
+  },
+  {
+    key: 'files',
+    icon: <FilesBoardİcon />
+  },
+  {
+    key: 'conversation',
+    icon: <Conversationsİcon />
+  },
+  {
+    key: 'settings',
+    icon: <Settingsİcon />
+  }
+]
+
+function Navigation({ flat = false, selectedKey = 'conversation' }) {
   return (
     <nav className={styles.nav}>
-    <p>{JSON.stringify(flat)}</p>
+      <p>{JSON.stringify(flat)}</p>
       <div className={styles.logobox}>
         <NavButton className={styles.firstLogo}>
           <Logo />
         </NavButton>
       </div>
+
       <div className={styles.icons}>
-        <NavButton selected={selectedKey === 'dashboard'}>
-          <Dashboardİcon />
-        </NavButton>
-
-        <NavButton selected={selectedKey === 'session'}>
-          <Sessionsİcon />
-        </NavButton>
-
-        <NavButton selected={selectedKey === 'meeting'}>
-          <Meetingsİcon />
-        </NavButton>
-
-        <NavButton selected={selectedKey === 'files'}>
-          <FilesBoardİcon />
-        </NavButton>
-
-        <NavButton selected={selectedKey === 'conversation'}>
-          <Conversationsİcon />
-        </NavButton>
-
-        <NavButton selected={selectedKey === 'settings'}>
-          <Settingsİcon />
-        </NavButton>
+        {MENU.map((menu) => {
+          const selected = selectedKey === menu.key
+          return (
+            <NavButton key={menu.key} selected={selected}>
+              {menu.icon}
+            </NavButton>
+          )
+        })}
       </div>
     </nav>
   )

@@ -1,13 +1,16 @@
 import React from 'react'
-import Button from "./button";
-import styles from './navigation-button.module.css';
-import cn from "classnames"
+import Button from './button'
+import styles from './navigation-button.module.css'
+import cn from 'classnames'
 
-function NavigationButton({notify, selected ,children, ...props}) {
+function NavigationButton({ notify, selected, children, ...props }) {
   return (
-    <Button className={cn(styles.navButton, selected && styles.navButtonSelected )} {...props}>
+    <Button
+      className={cn(styles.navButton, selected && styles.navButtonSelected)}
+      {...props}
+    >
+      {notify > 0 && <span className={styles.notify}>{notify}</span>}
       {children}
-      {notify && <span className={styles.notify}>{notify}</span>}
     </Button>
   )
 }

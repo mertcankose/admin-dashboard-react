@@ -3,7 +3,7 @@ import cn from 'classnames'
 import styles from "./photo.module.css"
 
 function Photo({
-  src = 'https://pbs.twimg.com/profile_images/1260188387820134407/Eq1Fb2Yy_400x400.jpg',
+  src = 'https://picsum.photos/58/58',
   alt='me'
 }) {
   return (
