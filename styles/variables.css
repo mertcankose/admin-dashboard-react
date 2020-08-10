@@ -1,11 +1,24 @@
 :root{
     --c-theme: #F4F8F9; /*grayish*/
     --c-primary: #fff;
+    --c-main-gray: #F4F8F9;
     --c-primary-10: rgba(65,146,236,.10);
     --c-primary-40: rgba(65,146,236,.40);
+    --c-gray: rgb(152, 152, 152,.20);
+    --c-gray-input: rgb(152, 152, 152,0.5);
+
     --c-red: #FF7878;
     --c-yellow: #FFD012;
     --c-blue: #4DA1FF;
-
+    --c-time-gray: #989898;
+    --c-name-black: #323C47;
+    --c-mail-gray: rgba(50, 60, 71, 0.5);
+    --c-role-gray: rgba(50, 60, 71, 0.614385);
+    --c-profile-box-blue: rgba(77, 161, 255, 0.742018);
     --fade:120ms;
+    --c-name-font-size:17px;
+    --c-mail-font-size:11px;
+    --c-role-font-size:13px;
+    --c-pending-color: #FF6D4A;
+    --c-profile-bottom-fontSize:20px;
 }

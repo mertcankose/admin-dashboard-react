@@ -3,4 +3,11 @@
 .button{
     background:transparent;
     cursor: pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullWidth {
+  width: 100% !important;
 }

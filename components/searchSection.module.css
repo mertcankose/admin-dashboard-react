@@ -1,0 +1,50 @@
+.box {
+  width: 100%;
+  background-color: var(--c-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:90px;
+  .searchBox {
+    margin-left: 60px;
+    form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      svg {
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+        margin-top: 6px;
+      }
+      input {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        color: black;
+        &::placeholder {
+          color: var(--c-gray-input);
+        }
+      }
+    }
+  }
+  .profileBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--c-profile-box-blue);
+    padding: 24px;
+    button {
+      border: 1px solid black;
+      padding: 10px;
+      margin-right: 20px;
+      background-color: var(--c-primary);
+      color: inherit;
+      border: 1px solid currentColor;
+      svg {
+        margin-right: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.layout {
+  display: flex;
+  background-color: var(--c-main-gray);
+  min-height: 100vh;
+    .asd{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+    }
+}
