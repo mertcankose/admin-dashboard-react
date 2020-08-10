@@ -13,7 +13,9 @@ function Layout({ children }) {
       <Sidebar flat={size.width < CONST.DESKTOP_SIZE}>Sidebar</Sidebar>
       <div className={styles.asd}>
         <Search></Search>
-        {children}
+        <div className={styles.asd2}>
+          {children}
+        </div>
       </div>
     </div>
   )

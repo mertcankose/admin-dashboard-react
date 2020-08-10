@@ -7,12 +7,13 @@ import { ShapeGraph } from './icons'
 function ProfileBox({
   name = 'Samuel Spencer',
   mail = 'sasp@egament.com',
-  role = 'Creative Director'
+  role = 'Creative Director',
+  photoUrl='https://pbs.twimg.com/profile_images/1260188387820134407/Eq1Fb2Yy_400x400.jpg'
 }) {
   return (
     <div className={cn(styles.box)}>
       <div className={styles.head}>
-        <Photo />
+        <Photo src={photoUrl}/>
         <div className={styles.headText}>
           <h3 className={styles.name}>{name}</h3>
           <p className={styles.mail}>{mail}</p>
