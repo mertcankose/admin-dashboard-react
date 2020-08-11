@@ -1,4 +1,7 @@
 .extra {
   margin-left:auto;
-  height:90vh;
+  position:fixed;
+  height:100%; 
+  top:82px;
+  right:0;
 }

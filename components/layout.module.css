@@ -8,8 +8,10 @@
         display:flex;
         flex-direction: column;
         width:100%;
+       
     }
     .asd2{
       display:flex;
+      margin-top:82px;
     }
 }

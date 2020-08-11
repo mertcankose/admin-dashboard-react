@@ -18,6 +18,41 @@ const PROFILE = [
     name: 'Angela',
     mail: 'angela142@gmail.com',
     role: 'Engineer'
+  },
+  {
+    name: 'Angela',
+    mail: 'angela142@gmail.com',
+    role: 'Engineer'
+  },
+  {
+    name: 'Angela',
+    mail: 'angela142@gmail.com',
+    role: 'Engineer'
+  },
+  {
+    name: 'Angela',
+    mail: 'angela142@gmail.com',
+    role: 'Engineer'
+  },
+  {
+    name: 'Angela',
+    mail: 'angela142@gmail.com',
+    role: 'Engineer'
+  },
+  {
+    name: 'Angela',
+    mail: 'angela142@gmail.com',
+    role: 'Engineer'
+  },
+  {
+    name: 'Angela',
+    mail: 'angela142@gmail.com',
+    role: 'Engineer'
+  },
+  {
+    name: 'Angela',
+    mail: 'angela142@gmail.com',
+    role: 'Engineer'
   }
 ]
 

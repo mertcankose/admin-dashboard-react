@@ -4,8 +4,11 @@ import Photo from './photo'
 import { Searchİcon } from './icons'
 import { PaperPlaneİcon } from './icons'
 import Button from './button'
+import CONST from '../constants/index'
+import useWindowSize from '../hooks/useWindowSize'
 
 function Search() {
+  const size = useWindowSize()
   return (
     <div className={styles.box}>
       <div className={styles.searchBox}>
@@ -21,13 +24,15 @@ function Search() {
           />
         </form>
       </div>
-      <div className={styles.profileBox}>
-        <Button>
-          <PaperPlaneİcon />
-          <span>Invite</span>
-        </Button>
-        <Photo />
-      </div>
+      {size.width > CONST.TABLET_SIZE && (
+        <div className={styles.profileBox}>
+          <Button>
+            <PaperPlaneİcon />
+            <span>Invite</span>
+          </Button>
+          <Photo />
+        </div>
+      )}
     </div>
   )
 }
