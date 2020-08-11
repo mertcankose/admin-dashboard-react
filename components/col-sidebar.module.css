@@ -1,6 +1,13 @@
 .sidebar {
-   position:fixed;
-   height:100%; 
-   top:0;
-   left:0;
+  position: fixed;
+  width: 120px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--c-primary);
+  border-right: 1px solid var(--c-gray);
+  z-index: 999;
+  @media (--t) {
+    width: 80px;
+  }
 }

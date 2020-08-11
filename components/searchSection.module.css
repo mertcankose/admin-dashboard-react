@@ -4,8 +4,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom:1.5px solid var(--c-gray);
-  padding:10px;
+  border-bottom: 1.5px solid var(--c-gray);
+  padding: 10px;
+
   .searchBox {
     margin-left: 60px;
     form {
@@ -22,7 +23,7 @@
         padding-top: 20px;
         padding-bottom: 20px;
         padding-right: 100px;
-        &:focus{
+        &:focus {
           outline: 1px dashed var(--c-gray);
         }
         color: black;
@@ -45,7 +46,6 @@
       background-color: var(--c-primary);
       color: inherit;
       border: 1px solid currentColor;
-
     }
   }
 }

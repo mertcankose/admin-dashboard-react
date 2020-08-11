@@ -4,7 +4,7 @@ import Photo from './photo'
 import { Searchİcon } from './icons'
 import { PaperPlaneİcon } from './icons'
 import Button from './button'
-import CONST from '../constants/index'
+import { SIZES } from '../constants/index'
 import useWindowSize from '../hooks/useWindowSize'
 
 function Search() {
@@ -24,7 +24,7 @@ function Search() {
           />
         </form>
       </div>
-      {size.width > CONST.TABLET_SIZE && (
+      {size.width > SIZES.MOBILE_SIZE && (
         <div className={styles.profileBox}>
           <Button>
             <PaperPlaneİcon />
