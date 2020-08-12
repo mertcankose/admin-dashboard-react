@@ -9,7 +9,9 @@
   display: flex;
   align-items: center;
   margin-top:10px;
-
+  button{
+    padding:12px;
+  }
   button:hover {
     background-color: var(--c-primary);
   }

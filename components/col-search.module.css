@@ -1,8 +1,9 @@
 .search {
   width:100%;
-  padding-left: 120px;
+  padding-left: 110px;
   position:fixed;
   top:0;
+  right:0;
   z-index: 99;
   @media (--t){
     padding-left: 80px;

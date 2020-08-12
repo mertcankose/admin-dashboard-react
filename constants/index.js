@@ -11,32 +11,38 @@ export const MENU = [
     {
       key: 'dashboard',
       path: '/',
-      icon: <Icon.Dashboardİcon />
+      icon: <Icon.Dashboardİcon />,
+      title:'Dashboard'
     },
     {
       key: '/session',
       path: '/session',
-      icon: <Icon.Sessionsİcon />
+      icon: <Icon.Sessionsİcon />,
+      title:'Session'
     },
     {
       key: 'meeting',
       path: '/meeting',
-      icon: <Icon.Meetingsİcon />
+      icon: <Icon.Meetingsİcon />,
+      title:'Meeting'
     },
     {
       key: 'files',
       path: '/files',
-      icon: <Icon.FilesBoardİcon />
+      icon: <Icon.FilesBoardİcon />,
+      title:'Files'
     },
     {
       key: 'conversation',
       path: '/conversation',
-      icon: <Icon.Conversationsİcon />
+      icon: <Icon.Conversationsİcon />,
+      title:'Conversation'
     },
     {
       key: 'settings',
       path: '/settings',
-      icon: <Icon.Settingsİcon />
+      icon: <Icon.Settingsİcon />,
+      title:'Settings'
     }
   ]
 

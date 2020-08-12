@@ -2,8 +2,8 @@ import React from 'react'
 import styles from './text-title.module.css'
 import cn from 'classnames'
 
-function TextTitle({ bold = true, children }) {
-  return <h2 className={cn(styles.title,bold && styles.bold)}>{children}</h2>
+function TextTitle({ bold = false, className,children }) {
+  return <h6 className={cn(styles.title,bold && styles.bold,className)}>{children}</h6>
 }
 
 export default TextTitle

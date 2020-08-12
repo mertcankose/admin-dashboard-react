@@ -1,11 +1,8 @@
 .navButton { 
   /*background-color: var(--c-primary);*/ /*already transparent at main button*/
-  padding:12px;
   position: relative;
   transition: var(--fade);
-  &:hover{
-    background-color: var(--c-primary-10)
-  }
+
   svg{
     //font-size: 42px;
     
