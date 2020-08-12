@@ -15,7 +15,9 @@
   --c-red: #ff7878;
   --c-yellow: #ffd012;
   --c-blue: #4da1ff;
+  --c-profile-box-border: #4da1ff;
   --c-time-gray: #989898;
+  --c-profile-box:#fff;
   --c-profile-name: #323c47;
   --c-profile-mail: rgba(50, 60, 71, 0.5);
   --c-profile-role: rgba(50, 60, 71, 0.614385);
@@ -26,28 +28,6 @@
   --c-role-font-size: 13px;
   --c-pending-color: #ff6d4a;
   --c-profile-bottom-fontSize: 20px;
-}
-
-/*DIM*/
-
-.dim:root {
-  --c-theme: #f4f8f9; /*grayish*/
-  --c-primary: #fff;
-  --c-main-gray: #f4f8f9;
-  --c-primary-10: rgba(65, 146, 236, 0.1);
-  --c-primary-40: rgba(65, 146, 236, 0.4);
-  --c-gray: rgb(152, 152, 152, 0.2);
-  --c-gray-input: rgb(152, 152, 152, 0.5);
-  --c-svg-color: #007aff;
-  --c-red: #ff7878;
-  --c-yellow: #ffd012;
-  --c-blue: #4da1ff;
-  --c-time-gray: #989898;
-  --c-name-black: #323c47;
-  --c-mail-gray: rgba(50, 60, 71, 0.5);
-  --c-role-gray: rgba(50, 60, 71, 0.614385);
-  --c-profile-box-blue: rgba(77, 161, 255, 0.742018);
-  --c-pending-color: #ff6d4a;
 }
 
 /*DARK*/
@@ -66,7 +46,9 @@
   --c-svg-color: #fff;
   --c-red: #ff7878;
   --c-yellow: #ffd012;
+  --c-profile-box: #322f3d;
   --c-blue: #4da1ff;
+  --c-profile-box-border:#fff;
   --c-time-gray: #989898;
   --c-profile-name: #fff;
   --c-profile-mail: #dddddd;

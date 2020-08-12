@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   useLayoutEffect(() => {
     const theme = localStorage.getItem('THEME') || 'light'
 
-    return setTheme(theme)
+    setTheme(theme)
   }, [])
 
   const changeTheme = (theme) => {
@@ -19,11 +19,12 @@ function MyApp({ Component, pageProps }) {
   }
 
   useEffect(() => {
+    if (!theme) return
     const $html = document.querySelector('html')
     $html.classList.remove('light')
     $html.classList.remove('dim')
     $html.classList.remove('dark')
-    $html.classList.add(theme)
+    $html.classList.add(theme.toString())
   }, [theme])
 
   return (

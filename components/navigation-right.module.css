@@ -28,7 +28,7 @@
   color: var(--c-nav-right-color);
   svg {
     font-size: 30px;
-    color:var(--c-primary);
+    color:#fff;
   }
 }
 .notificationInfo {
