@@ -7,6 +7,7 @@ import Button from './button'
 import { SIZES } from '../constants/index'
 import useWindowSize from '../hooks/useWindowSize'
 
+
 function Search() {
   const size = useWindowSize()
   return (

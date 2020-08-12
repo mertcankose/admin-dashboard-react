@@ -6,6 +6,7 @@
   a {
     padding: 32px 20px;
     width: 100%;
+    color: var(--c-svg-color);
 
     & + button {
       //margin-top:36px;
@@ -14,6 +15,7 @@
   svg {
     //font-size:42px;
     flex-shrink: 0;
+    
   }
 }
 .bigLogo {

@@ -4,25 +4,26 @@
   justify-content: space-around;
   width: 340px;
   height: 360px;
-  background-color: var(--c-primary);
+  background-color: #322f3d;
   margin-right:20px;
   margin:20px;
+    color:var(--c-secondary);
   .head {
     display: flex;
     margin-left: 30px;
     .headText {
       margin-left: 20px;
       .name {
-        color: var(--c-name-black);
+        color: var(--c-profile-name);
         font-size: var(--c-name-font-size);
       }
       .mail {
-        color: var(--c-mail-gray);
+        color: var(--c-profile-mail);
         margin-top: 4px;
         font-size: var(--c-mail-font-size);
       }
       .role {
-        color: var(--c-role-gray);
+        color: var(--c-profile-role);
         margin-top: 8px;
         font-size: var(--c-role-font-size);
       }

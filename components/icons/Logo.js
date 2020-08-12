@@ -3,7 +3,7 @@ import * as React from 'react'
 function SvgLogo(props) {
   return (
     <svg width="1em" height="1em" viewBox="0 0 30 42" fill="none" {...props}>
-      <g clipPath="url(#logo_svg__clip0)" fill="#4DA1FF">
+      <g clipPath="url(#logo_svg__clip0)" fill="currentColor">
         <path
           d="M20.92 20.713l4.785-4.78c-5.726-5.72-15.009-5.72-20.735 0l4.785 4.78a7.901 7.901 0 0111.165 0z"
           fillOpacity={0.3}

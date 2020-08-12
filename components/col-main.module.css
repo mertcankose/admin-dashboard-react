@@ -1,7 +1,5 @@
 .main {
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   margin-left: 150px;
-  margin-right: 280px;
+  margin-right: 200px;
+  background-color: #000;
 }

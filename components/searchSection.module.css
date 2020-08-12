@@ -14,6 +14,7 @@
       align-items: center;
       justify-content: center;
       svg {
+        color: var(--c-search-icon);
         margin-right: 10px;
         width: 20px;
         height: 20px;
@@ -26,7 +27,7 @@
         &:focus {
           outline: 1px dashed var(--c-gray);
         }
-        color: black;
+        color: var(--c-secondary);
         &::placeholder {
           color: var(--c-gray-input);
         }
@@ -44,8 +45,11 @@
       padding: 10px;
       margin-right: 30px;
       background-color: var(--c-primary);
-      color: inherit;
+      color: var(--c-svg-color);
       border: 1px solid currentColor;
+    }
+    span{
+      margin-left:8px;
     }
   }
 }
