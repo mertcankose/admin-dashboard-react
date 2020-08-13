@@ -10,7 +10,9 @@ function Files() {
 
   return (
     <Layout>
-      <Main>Files</Main>
+      <Main>
+      <h1 style={{color:'#fff'}}>Files</h1>
+      </Main>
       {size.width > SIZES.MOBILE_SIZE && <Extra id={'files'}>Extra</Extra>}
     </Layout>
   )

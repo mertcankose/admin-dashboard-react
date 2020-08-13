@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './eventbox.module.css'
-import {Tickİcon} from "./icons";
+import { Tickİcon } from './icons'
 //import cn from "classnames"
 
 function EventBox({ invitation, children, person, time, reminder, ...props }) {
@@ -15,7 +15,7 @@ function EventBox({ invitation, children, person, time, reminder, ...props }) {
           <div className={styles.eventView}>
             <div className={styles.acceptBox}>
               <div className={styles.tickBase}>
-                <Tickİcon/>
+                <Tickİcon />
               </div>
               <span>Accept</span>
             </div>

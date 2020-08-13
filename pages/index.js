@@ -4,13 +4,16 @@ import Layout from '../components/layout'
 import Main from '../components/col-main'
 import Extra from '../components/col-extra'
 import useWindowSize from '../hooks/useWindowSize'
+import ThemeSelect from '../components/theme-select'
 
 function HomePage() {
   const size = useWindowSize()
 
   return (
     <Layout>
-      <Main></Main>
+      <Main>
+        <ThemeSelect />
+      </Main>
       {size.width > SIZES.MOBILE_SIZE && <Extra id={'first'}>Extra</Extra>}
     </Layout>
   )

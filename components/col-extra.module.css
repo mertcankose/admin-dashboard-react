@@ -1,8 +1,10 @@
 .extra {
-  margin-left:auto;
-  position:fixed;
-  top:82px;
   height:100vh;
+  position:sticky;
+  top:80px;
   right:0;
+  bottom:0;
+  margin-left:auto;
   background-color: var(--c-primary);
+  border-left:1px solid var(--c-gray);
 }

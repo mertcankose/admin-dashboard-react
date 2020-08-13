@@ -10,7 +10,9 @@ function Meeting() {
 
   return (
     <Layout>
-      <Main>MEETING</Main>
+      <Main>
+        <h1 style={{color:'#fff'}}>Meeting</h1>
+      </Main>
       {size.width > SIZES.MOBILE_SIZE && <Extra id={'meeting'}>Extra</Extra>}
     </Layout>
   )

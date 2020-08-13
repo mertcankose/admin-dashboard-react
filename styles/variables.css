@@ -10,6 +10,7 @@
   --c-primary-40: rgba(65, 146, 236, 0.4);
   --c-gray: rgb(152, 152, 152, 0.2);
   --c-nav-right-color: #000;
+  --c-main-color: #f4f8f9;
   --c-gray-input: rgb(152, 152, 152, 0.5);
   --c-svg-color: #007aff;
   --c-red: #ff7878;
@@ -40,6 +41,7 @@
   --c-primary-10: rgba(65, 146, 236, 0.1);
   --c-primary-40: rgba(65, 146, 236, 0.4);
   --c-gray: rgb(152, 152, 152, 0.2);
+  --c-main-color: #000;
   --c-nav-right-color: #fff;
   --c-gray-input: #fff;
   --c-search-icon: #fff;

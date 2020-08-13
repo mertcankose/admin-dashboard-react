@@ -1,13 +1,14 @@
 .sidebar {
-  position: fixed;
-  width: 150px;
-  height: 100%;
+  position: sticky;
+  height: 100vh;
   top: 0;
   left: 0;
+  bottom:0;
   background-color: var(--c-primary);
   border-right: 1px solid var(--c-gray);
   z-index: 999;
   @media (--t) {
     width: 80px;
+    align-items: flex-start;
   }
 }

@@ -4,23 +4,14 @@
   align-items: center;
   button,
   a {
-    padding: 32px 20px;
+    padding: 30px 20px;
     width: 100%;
     color: var(--c-svg-color);
-
-    & + button {
-      //margin-top:36px;
-    }
-  }
-  svg {
-    //font-size:42px;
-    flex-shrink: 0;
-    
   }
 }
 .bigLogo {
   margin-bottom: 60px;
-  display:flex;
+  display: flex;
   justify-content: center;
   &:hover {
     background-color: var(--c-primary);
@@ -28,27 +19,18 @@
 }
 
 .iconsBox {
-  width: 100%;
+  width:100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
-.navButtonn {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  @media (--t){
+.navButton {
+display:flex;
+  @media (--t) {
     justify-content: center;
   }
-  &:hover{
+  &:hover {
     background-color: var(--c-primary-10);
-  }
-  svg{
-    font-size: 22px;
-  }
-  .text{
-    margin-left:8px;
   }
 }

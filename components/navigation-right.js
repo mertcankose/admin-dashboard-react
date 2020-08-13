@@ -6,7 +6,7 @@ import styles from './navigation-right.module.css'
 
 function NavigationRight() {
   return (
-    <nav className={styles.nav}>
+    <div className={styles.nav}>
       <div className={styles.bigNotificationBox}>
         <NavButton notify={17}>
           <div className={styles.notificationBase}>
@@ -27,7 +27,7 @@ function NavigationRight() {
       />
       <EventBox reminder={'Wireframes with Josh'} time={'9:59'} />
       <EventBox reminder={'Follow up on Wireframes and Design'} time={'9:50'} />
-    </nav>
+    </div>
   )
 }
 export default NavigationRight

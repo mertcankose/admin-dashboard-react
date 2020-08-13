@@ -2,10 +2,12 @@
   /*background-color: var(--c-primary);*/ /*already transparent at main button*/
   position: relative;
   transition: var(--fade);
-
   svg{
-    //font-size: 42px;
-    
+    font-size:24px;
+    & + *{
+      margin-left:12px;
+      margin-right:6px;
+    }
   }
 }
 
@@ -15,8 +17,8 @@
 
 .notify{
   position:absolute;
-  left: 50px;
-  top: 8px;
+  left:32px;
+  top: -10px;
   background-color: var(--c-red);
   color:#fff;
   //min-width:24px;

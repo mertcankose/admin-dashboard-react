@@ -1,36 +1,33 @@
 .box {
-  width: 100%;
   background-color: var(--c-primary);
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1.5px solid var(--c-gray);
-  padding: 10px;
-
-  .searchBox {
-    margin-left: 60px;
-    form {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      svg {
-        color: var(--c-search-icon);
-        margin-right: 10px;
-        width: 20px;
-        height: 20px;
-        margin-top: 6px;
+  padding:10px 30px;
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    svg {
+      color: var(--c-search-icon);
+      font-size: 20px;
+      width: 1em;
+      height: 1em;
+      margin-top: 6px;
+    }
+    input {
+      width:24rem;
+      margin-left: 10px;
+      padding-top:10px;
+      padding-bottom:10px;
+      padding-left: 10px;
+      &:focus {
+        outline: 1px dashed var(--c-gray);
       }
-      input {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-right: 100px;
-        &:focus {
-          outline: 1px dashed var(--c-gray);
-        }
-        color: var(--c-secondary);
-        &::placeholder {
-          color: var(--c-gray-input);
-        }
+      color: var(--c-secondary);
+      &::placeholder {
+        color: var(--c-gray-input);
       }
     }
   }
@@ -39,7 +36,6 @@
     align-items: center;
     justify-content: center;
     color: var(--c-profile-box-blue);
-    margin-right: 60px;
     button {
       border: 1px solid black;
       padding: 10px;
@@ -48,8 +44,8 @@
       color: var(--c-svg-color);
       border: 1px solid currentColor;
     }
-    span{
-      margin-left:8px;
+    span {
+      margin-left: 8px;
     }
   }
 }

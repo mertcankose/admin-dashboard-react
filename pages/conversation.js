@@ -10,7 +10,9 @@ function Conversation() {
 
   return (
     <Layout>
-      <Main>Conversation</Main>
+      <Main>
+      <h1 style={{color:'#fff'}}>Conversations</h1>
+      </Main>
       {size.width > SIZES.MOBILE_SIZE && <Extra id={'conversation'}>Extra</Extra>}
     </Layout>
   )

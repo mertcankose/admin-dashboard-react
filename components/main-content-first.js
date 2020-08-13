@@ -9,14 +9,11 @@ function MainContentFirst() {
   return (
     <div className={styles.mainBox}>
       <div className={styles.mainContentHeadBox}>
-        <div className={styles.mainContentHeadBox1}>
-          <h1>Session</h1>
-          <Button className={styles.exportButton}>
-            <Icon.Fill2 />
-            <span>Export</span>
-          </Button>
-        </div>
-        <Button className={styles.cardTable}>Card-Table</Button>
+        <h1>Session</h1>
+        <Button className={styles.exportButton}>
+          <Icon.Fill2 />
+          <span>Export</span>
+        </Button>
       </div>
 
       <div className={styles.bigProfileBox}>

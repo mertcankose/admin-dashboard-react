@@ -1,9 +1,7 @@
 .layout {
   display: flex;
-  background-color: var(--c-main-gray);
+  /*background-color: var(--c-main-gray);*/
   min-height: 100vh;
-  margin-left:auto;
-  margin-right: auto;
     .search_main_and_extra{
         display:flex;
         flex-direction: column;
@@ -12,6 +10,6 @@
     }
     .main_and_extra{
       display:flex;
-      margin-top:82px;
+    
     }
 }

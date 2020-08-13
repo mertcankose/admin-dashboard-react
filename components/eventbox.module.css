@@ -9,7 +9,6 @@
   line-height: 24px;
   margin-top: 30px;
   font-size: 14px;
-
 }
 
 .line {
@@ -30,8 +29,8 @@
   flex-direction: column;
 }
 
-.invitationText{
-    margin-bottom:6px;
+.invitationText {
+  margin-bottom: 6px;
 }
 
 .invitationText::before {
@@ -63,7 +62,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-right:4px;
+      margin-right: 4px;
     }
   }
   p {
