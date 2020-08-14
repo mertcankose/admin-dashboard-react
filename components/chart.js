@@ -37,9 +37,9 @@ const options = {
 function Chart() {
   return (
     <div className={styles.chartBox}>
-      <Bar data={data} legend={legend} width={700} height={500} options={options} />
-      <Bar data={data} legend={legend} width={700} height={500} options={options} />
-      <Bar data={data} legend={legend} width={700} height={500} options={options} />
+      <Bar data={data} legend={legend} width={400} height={20} options={options} />
+      <Bar data={data} legend={legend} width={400} height={20} options={options} />
+      <Bar data={data} legend={legend} width={400} height={20} options={options} />
     </div>
   )
 }
