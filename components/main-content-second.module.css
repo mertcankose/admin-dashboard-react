@@ -1,0 +1,23 @@
+.chartSectionBox{
+    display:flex;
+    flex-direction: column;
+    padding:30px;
+    .chartInfoBox{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom:60px;
+        h1{
+            font-size:30px;
+        }
+    }
+    .chartTimeBox{
+        display:flex;
+        button{
+            padding:10px;
+            margin-left:12px;
+            border:1px solid var(--c-blue);
+            border-radius: 10px;
+        }
+    }
+}

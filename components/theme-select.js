@@ -10,12 +10,12 @@ function ThemeSelect() {
   //const [selectedTheme, setSelectedTheme] = useState('light')
   const THEME = {
     light: 'Light',
-    dim: 'Dim',
+    /*dim: 'Dim',*/
     dark: 'Dark'
   }
   return (
     <div className={styles.inputBox}>
-      {['light', 'dim', 'dark'].map((theme) => (
+      {['light', 'dark'].map((theme) => (
         <label key={theme} className={styles.label}>
           <input
             type="radio"

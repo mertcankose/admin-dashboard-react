@@ -7,11 +7,14 @@ import { useState, useEffect, useLayoutEffect } from 'react'
 function MyApp({ Component, pageProps }) {
   const [theme, setTheme] = useState(null)
 
+  /*UseLayoutEffect içinde planlanan güncellemeler, tarayıcının boyama şansı bulamadan eşzamanlı olarak temizlenir.*/
   useLayoutEffect(() => {
     const theme = localStorage.getItem('THEME') || 'light'
 
     setTheme(theme)
   }, [])
+
+  /* we recommend starting with useEffect first and only trying useLayoutEffect if that causes a problem. */
 
   const changeTheme = (theme) => {
     setTheme(theme)
