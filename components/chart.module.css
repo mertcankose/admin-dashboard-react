@@ -1,8 +1,18 @@
-.chartBox {
+.chartBigBox {
   display: flex;
-  flex-wrap:wrap;
-  width:500px;
-}
-.barChart {
-    
+  flex-wrap: wrap;
+  justify-content: space-around;
+  .chartBox {
+    min-width:30vw;
+    min-height:36vh;
+    margin-bottom:100px;
+
+  }
+  .chartBox1 {
+   
+  }
+  .chartBox2 {
+  }
+  .chartBox3 {
+  }
 }

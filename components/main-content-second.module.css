@@ -1,12 +1,13 @@
 .chartSectionBox{
     display:flex;
     flex-direction: column;
-    padding:30px;
+    justify-content: center;
     .chartInfoBox{
+        width:100%;
         display:flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom:60px;
+        padding: 30px 80px;
         h1{
             font-size:30px;
         }
