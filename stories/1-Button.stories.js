@@ -4,7 +4,7 @@ import Button from '../components/button'
 import NavigationButton from '../components/navigation-button'
 import Navigation from '../components/navigation'
 import { Dashboardİcon } from '../components/icons'
-import NavigationRight from '../components/navigation-right'
+import NavigationRight from '../components/navigation-right-first'
 import ThemeButton from '../components/theme-button'
 import Stack from '../components/stack'
 
