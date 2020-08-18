@@ -1,8 +1,10 @@
 .apexBox {
-  display:flex;
+  display: flex;
   flex-direction: column;
   .apexBoxHead {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 100px;
 
     @media (--d) {
@@ -12,9 +14,12 @@
     }
   }
   .apexBoxBottom {
-    display:flex;
+    display: flex;
+    justify-content: space-between;
     .donutBox {
-      width: 30%;
+      width: 400px;
+      height: 400px;
+      flex-shrink: 0;
     }
     .personListBox {
       width: 70%;
@@ -24,7 +29,7 @@
   }
 
   .columnBarBox {
-    width: 70%;
+    width: 60%;
     @media (--d) {
       width: 100%;
       margin-bottom: 40px;
@@ -44,7 +49,7 @@
     div {
       margin-bottom: 60px;
       @media (--d) {
-        margin-left: 20px;
+        margin-right: 20px;
         margin-bottom: 20px;
       }
     }

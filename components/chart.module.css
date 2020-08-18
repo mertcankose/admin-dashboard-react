@@ -1,7 +1,7 @@
 .chartBigBox {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   .chartheader {
     font-size: 28px;
     text-align: center;
@@ -10,8 +10,7 @@
     margin-bottom: 18px;
   }
   .chartBox {
-    min-width: 30vw;
-    min-height: 36vh;
+    width:40%;
     margin-bottom: 100px;
   }
   .chartBox1 {

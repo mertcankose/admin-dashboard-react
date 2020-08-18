@@ -11,7 +11,7 @@ function ApexChart() {
     <div className={styles.apexBox}>
       <div className={styles.apexBoxHead}>
         <div className={styles.columnBarBox}>
-          <ColumnBar />
+          <ColumnBar height={350}/>
         </div>
         <div className={styles.graphsBox}>
           <Graph graphHead="Orders" graphData="12.394" />

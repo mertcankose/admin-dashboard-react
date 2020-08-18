@@ -11,7 +11,6 @@ var state = {
   ],
   options: {
     chart: {
-    height: 'auto',
       type: 'bar'
     },
     plotOptions: {
@@ -101,7 +100,7 @@ var state = {
 
 function ColumnBar() {
   return (
-    <ColumnChart options={state.options} series={state.series} type="bar" />
+    <ColumnChart options={state.options} series={state.series} type="bar" width='100%' />
   )
 }
 
