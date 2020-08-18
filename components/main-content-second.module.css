@@ -10,6 +10,7 @@
         padding: 30px 80px;
         h1{
             font-size:30px;
+            color:var(--c-secondary)
         }
     }
     .chartTimeBox{
@@ -19,6 +20,7 @@
             margin-left:12px;
             border:1px solid var(--c-blue);
             border-radius: 10px;
+            color:var(--c-secondary);
         }
     }
 }

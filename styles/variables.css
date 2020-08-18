@@ -29,6 +29,7 @@
   --c-role-font-size: 13px;
   --c-pending-color: #ff6d4a;
   --c-profile-bottom-fontSize: 20px;
+  --c-button-background: #71B4FF;
 }
 
 /*DARK*/
@@ -57,4 +58,5 @@
   --c-profile-role: #eeeeee;
   --c-profile-box-blue: rgba(77, 161, 255, 0.742018);
   --c-pending-color: #ff6d4a;
+  --c-button-background: #fff;
 }

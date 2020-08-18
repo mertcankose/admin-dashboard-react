@@ -2,16 +2,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background-color: var(--c-primary);
+  justify-content: space-between;
   color: var(--c-nav-right-color);
-  width:220px;
-  padding-left:10px;
+  width:100%;
+  height: 54%;
 }
 .bigNotificationBox {
   display: flex;
   align-items: center;
-  margin-top:10px;
-  padding:10px;
+  margin-top:26px;
   button{
     margin-right:10px;
   }

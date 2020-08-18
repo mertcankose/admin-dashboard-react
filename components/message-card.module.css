@@ -1,0 +1,26 @@
+.messageBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .content {
+    flex-grow: 1;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-weight: 500;
+    span {
+      font-size: 12px;
+      font-weight: 100;
+    }
+  }
+  .lastSeen {
+    flex-shrink: 0;
+    font-size: 12px;
+    color: gray;
+  }
+}

@@ -14,7 +14,7 @@ function Session() {
       <Main>
         <MainContentFirst />
       </Main>
-      {size.width > SIZES.MOBILE_SIZE && <Extra id={'first'}>Extra</Extra>}
+      {size.width > SIZES.MOBILE_SIZE && <Extra id={'session'}>Extra</Extra>}
     </Layout>
   )
 }

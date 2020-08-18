@@ -2,14 +2,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  .chartheader {
+    font-size: 28px;
+    text-align: center;
+    color: var(--c-secondary);
+    font-weight: bold;
+    margin-bottom: 18px;
+  }
   .chartBox {
-    min-width:30vw;
-    min-height:36vh;
-    margin-bottom:100px;
-
+    min-width: 30vw;
+    min-height: 36vh;
+    margin-bottom: 100px;
   }
   .chartBox1 {
-   
   }
   .chartBox2 {
   }

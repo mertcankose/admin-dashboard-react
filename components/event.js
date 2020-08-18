@@ -8,7 +8,8 @@ function EventBox({ invitation, children, person, time, reminder, ...props }) {
     <div className={styles.box} {...props}>
       <div className={styles.line}></div>
       <span className={styles.time}>{time}</span>
-      <p>{reminder}</p>
+      <p className={styles.reminder}>{reminder}</p>
+
       {invitation && (
         <div className={styles.invitationBox}>
           <p className={styles.invitationText}>New invitation from {person}</p>

@@ -2,9 +2,9 @@ import React from 'react'
 import NavButton from './navigation-button'
 import EventBox from './event'
 import { Notificationİcon } from './icons'
-import styles from './navigation-right.module.css'
+import styles from './navigation-right-first.module.css'
 
-function NavigationRight() {
+function NavigationRightFirst() {
   return (
     <div className={styles.nav}>
       <div className={styles.bigNotificationBox}>
@@ -30,4 +30,4 @@ function NavigationRight() {
     </div>
   )
 }
-export default NavigationRight
+export default NavigationRightFirst

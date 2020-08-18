@@ -42,9 +42,10 @@ const legend = {
 
 const options = {
   title: {
-    display: true,
+    display: false,
     text: 'Largest Cities',
-    fontSize: 20
+    fontSize: 30,
+    fontColor: '#000'
   },
   chartArea: {
     backgroundColor: 'rgba(251, 85, 85, 0.4)'
@@ -56,30 +57,40 @@ function Chart() {
   return (
     <div className={styles.chartBigBox}>
       <div className={`${styles.chartBox} ${styles.chartBox1}`}>
+        <h1 className={styles.chartheader}>Largest Cities</h1>
         <Bar data={data} legend={legend} options={options} />
       </div>
       <div className={`${styles.chartBox} ${styles.chartBox2}`}>
+        <h1 className={styles.chartheader}>Largest Cities</h1>
         <Line data={data} legend={legend} options={options} />
       </div>
       <div className={`${styles.chartBox} ${styles.chartBox3}`}>
+        <h1 className={styles.chartheader}>Largest Cities</h1>
         <Pie data={data} legend={legend} options={options} />
       </div>
       <div className={`${styles.chartBox} ${styles.chartBox3}`}>
+        <h1 className={styles.chartheader}>Largest Cities</h1>
         <Doughnut data={data} legend={legend} options={options} />
       </div>
       <div className={`${styles.chartBox} ${styles.chartBox3}`}>
+        <h1 className={styles.chartheader}>Largest Cities</h1>
         <HorizontalBar data={data} legend={legend} options={options} />
       </div>
       <div className={`${styles.chartBox} ${styles.chartBox3}`}>
+        <h1 className={styles.chartheader}>Largest Cities</h1>
         <Radar data={data} legend={legend} options={options} />
       </div>
       <div className={`${styles.chartBox} ${styles.chartBox3}`}>
+        <h1 className={styles.chartheader}>Largest Cities</h1>
         <Polar data={data} legend={legend} options={options} />
       </div>
       <div className={`${styles.chartBox} ${styles.chartBox3}`}>
+        <h1 className={styles.chartheader}>Largest Cities</h1>
+        <h1 className={styles.chartheader}>Largest Cities</h1>
         <Bar data={data} legend={legend} options={options} />
       </div>
       <div className={`${styles.chartBox} ${styles.chartBox3}`}>
+        <h1 className={styles.chartheader}>Largest Cities</h1>
         <Doughnut data={data} legend={legend} options={options} />
       </div>
     </div>
