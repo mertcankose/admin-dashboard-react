@@ -14,7 +14,7 @@ function Meeting() {
       <Main>
         <MainContentThird />
       </Main>
-      {size.width > SIZES.MOBILE_SIZE && <Extra id={'meeting'}>Extra</Extra>}
+      {size.width > SIZES.TABLET_SIZE && <Extra id={'meeting'}>Extra</Extra>}
     </Layout>
   )
 }

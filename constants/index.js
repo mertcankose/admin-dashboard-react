@@ -3,7 +3,7 @@ import * as Icon from '../components/icons'
 
 export const SIZES = {
   MOBILE_SIZE: 776,
-  TABLET_SIZE: 980,
+  TABLET_SIZE: 990,
   DESKTOP_SIZE: 1270
 }
 

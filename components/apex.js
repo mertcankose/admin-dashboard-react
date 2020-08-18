@@ -2,35 +2,30 @@ import React, { Component } from 'react'
 import dynamic from 'next/dynamic'
 const Chart = dynamic(() => import('react-apexcharts'), { ssr: false })
 import styles from './apex.module.css'
-
-var state = {
-  series: [44, 55, 41, 17, 15],
-  options: {
-    chart: {
-      type: 'donut',
-    },
-    responsive: [{
-      breakpoint: 480,
-      options: {
-        chart: {
-          width: 200
-        },
-        legend: {
-          position: 'bottom'
-        }
-      }
-    }]
-  },
-}
+import Donat from './donat'
+import ColumnBar from './column-bar'
+import Graph from './graphicBox'
 
 function ApexChart() {
   return (
     <div className={styles.apexBox}>
-      <div className={styles.donutBox}>
-        <Chart options={state.options} series={state.series} type="donut" />
+      <div className={styles.apexBoxHead}>
+        <div className={styles.columnBarBox}>
+          <ColumnBar />
+        </div>
+        <div className={styles.graphsBox}>
+          <Graph graphHead="Orders" graphData="12.394" />
+          <Graph graphHead="Returns" graphData="321" color="blue" />
+          <Graph graphHead="Sale" graphData="458.42" color="yellow" />
+        </div>
       </div>
-      <div className={styles.donutBox}>
-        <Chart options={state.options} series={state.series} type="donut" />
+      <div className={styles.apexBoxBottom}>
+        <div className={styles.donutBox}>
+          <Donat />
+        </div>
+        <div className={styles.personListBox}>
+          Person List
+        </div>
       </div>
     </div>
   )

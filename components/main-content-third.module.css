@@ -1,5 +1,3 @@
-.apexSection{
-       display:flex;
-    flex-direction: column;
-    justify-content: center;
+.apexSectionBox {
+    padding:40px;
 }

@@ -1,7 +1,52 @@
-.apexBox{
-    display:flex;
-    .donutBox{
-        width:400px;
-        height:400px;
+.apexBox {
+  display:flex;
+  flex-direction: column;
+  .apexBoxHead {
+    display: flex;
+    margin-bottom: 100px;
+
+    @media (--d) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
+  }
+  .apexBoxBottom {
+    display:flex;
+    .donutBox {
+      width: 30%;
+    }
+    .personListBox {
+      width: 70%;
+      height: 300px;
+      border: 1px solid black;
+    }
+  }
+
+  .columnBarBox {
+    width: 70%;
+    @media (--d) {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+  .graphsBox {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (--d) {
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    div {
+      margin-bottom: 60px;
+      @media (--d) {
+        margin-left: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
 }

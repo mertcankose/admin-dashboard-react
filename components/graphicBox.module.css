@@ -1,0 +1,39 @@
+.graphBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom:20px;
+  height: 150px;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  @media (--t){
+        width: 40%;
+  }
+  
+  .svgBox {
+    
+  }
+
+
+  svg {
+      font-size:60px;
+  }
+
+
+  p {
+    font-size: 14px;
+    color: gray;
+    line-height: 30px;
+  }
+
+
+  span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+}
