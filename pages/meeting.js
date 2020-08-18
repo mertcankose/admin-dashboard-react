@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import Main from '../components/col-main'
 import Extra from '../components/col-extra'
 import useWindowSize from '../hooks/useWindowSize'
+import MainContentThird from '../components/main-content-third'
 
 function Meeting() {
   const size = useWindowSize()
@@ -11,7 +12,7 @@ function Meeting() {
   return (
     <Layout>
       <Main>
-        <h1 style={{ color: 'red' }}>Meeting</h1>
+        <MainContentThird />
       </Main>
       {size.width > SIZES.MOBILE_SIZE && <Extra id={'meeting'}>Extra</Extra>}
     </Layout>

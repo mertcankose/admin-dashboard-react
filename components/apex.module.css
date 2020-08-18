@@ -1,0 +1,7 @@
+.apexBox{
+    display:flex;
+    .donutBox{
+        width:400px;
+        height:400px;
+    }
+}
