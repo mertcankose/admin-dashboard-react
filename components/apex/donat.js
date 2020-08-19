@@ -13,7 +13,7 @@ var state = {
       breakpoint: 480,
       options: {
         chart: {
-          width:400
+          width:'100%'
         },
         legend: {
           position: 'bottom'

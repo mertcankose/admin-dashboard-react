@@ -50,7 +50,7 @@
       width: 35%;
       flex-shrink: 0;
       @media (--d) {
-        width: 60%;
+        width: 100%;
         margin-bottom: 40px;
       }
     }

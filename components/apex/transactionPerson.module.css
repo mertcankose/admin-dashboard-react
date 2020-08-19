@@ -4,9 +4,10 @@
   justify-content: center;
   width:100%;
   border-radius: 16px;
-  padding: 12px;
+  padding: 12px 30px;
   background-color: #fff;
   .id {
+    
   }
   img {
     border-radius: 50%;
@@ -16,7 +17,6 @@
   }
   .name {
     flex-grow: 3;
-    
   }
   .date {
     flex-grow: 2;

@@ -1,5 +1,9 @@
 .apexSectionBox {
     padding:40px;
+    @media (--t){
+        padding:16px;
+        font-size:10px;
+    }
     h6{
         font-size:26px;
     }
