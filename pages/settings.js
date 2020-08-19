@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import { SIZES } from '../constants/index'
-import Layout from '../components/layout'
-import Main from '../components/col-main'
-import Extra from '../components/col-extra'
+import Layout from '../components/layout/layout'
+import Main from '../components/col/col-main'
+import Extra from '../components/col/col-extra'
 import useWindowSize from '../hooks/useWindowSize'
-import ThemeSelect from '../components/theme-select'
+import ThemeSelect from '../components/themeSelect/theme-select'
 
 function Settings() {
   const size = useWindowSize()
@@ -14,7 +14,7 @@ function Settings() {
       <Main>
         <ThemeSelect />
       </Main>
-      {size.width > SIZES.MOBILE_SIZE && <Extra id={'settings'}>Extra</Extra>}
+      {size.width > SIZES.DESKTOP_SIZE && <Extra id={'settings'}>Extra</Extra>}
     </Layout>
   )
 }

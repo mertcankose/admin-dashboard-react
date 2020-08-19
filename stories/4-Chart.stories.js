@@ -1,5 +1,6 @@
 import React from 'react';
-import Chart from '../components/chart'
+import Chart from '../components/chart/chart'
+import TransactionPerson from '../components/apex/transactionPerson'
 
 export default {
   title: 'Chart',
@@ -8,3 +9,5 @@ export default {
 
 
 export const ChartSection = () => <Chart/>
+
+export const Transaction = () => <TransactionPerson/>

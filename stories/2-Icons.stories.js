@@ -1,9 +1,9 @@
 import React from 'react'
-import * as Icons from '../components/icons'
-import Photo from '../components/photo.js'
-import Stack from '../components/stack'
-import ProfileBox from "../components/profileBox"
-import Search from "../components/searchSection"
+import * as Icons from '../components//icons'
+import Photo from '../components/photo/photo'
+import Stack from '../components/stack/stack'
+import ProfileBox from "../components/profileBox/profileBox"
+import Search from "../components/search/searchSection"
 
 export default {
   title: 'Icons'

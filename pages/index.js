@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react'
 import { SIZES } from '../constants/index'
-import Layout from '../components/layout'
-import Main from '../components/col-main'
-import Extra from '../components/col-extra'
+import Layout from '../components/layout/layout'
+import Main from '../components/col/col-main'
+import Extra from '../components/col/col-extra'
 import useWindowSize from '../hooks/useWindowSize'
-import ThemeSelect from '../components/theme-select'
-import MainContentSecond from '../components/main-content-second'
+import ThemeSelect from '../components/themeSelect/theme-select'
+
+import MainContentThird from '../components/mainContent/main-content-third'
+
 
 function HomePage() {
   const size = useWindowSize()
@@ -14,9 +16,9 @@ function HomePage() {
     <Layout>
       <Main>
         <ThemeSelect />
-        <MainContentSecond/>
+        <MainContentThird/>
       </Main>
-      {size.width > SIZES.MOBILE_SIZE && <Extra id={'first'}>Extra</Extra>}
+      {size.width > SIZES.DESKTOP_SIZE && <Extra id={'first'}>Extra</Extra>}
     </Layout>
   )
 }

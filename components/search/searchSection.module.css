@@ -1,0 +1,53 @@
+.box {
+  background-color: var(--c-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid var(--c-gray);
+  padding:10px 30px;
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow:1;
+    svg {
+      color: var(--c-search-icon);
+      font-size: 20px;
+      width: 1em;
+      height: 1em;
+      margin-top: 6px;
+    }
+    input {
+      flex-grow:1;
+      //width:24rem;
+      margin-left: 10px;
+      margin-right:50px;
+      padding-top:10px;
+      padding-bottom:10px;
+      padding-left: 10px;
+      &:focus {
+        outline: 1px dashed var(--c-gray);
+      }
+      color: var(--c-secondary);
+      &::placeholder {
+        color: var(--c-gray-input);
+      }
+    }
+  }
+  .profileBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--c-profile-box-blue);
+    button {
+      padding: 10px;
+      margin-right: 30px;
+      background-color: var(--c-primary);
+      color: var(--c-svg-color);
+      border: 1px solid currentColor;
+    }
+    span {
+      margin-left: 8px;
+    }
+  }
+}

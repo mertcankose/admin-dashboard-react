@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { SIZES } from '../constants/index'
-import Layout from '../components/layout'
-import Main from '../components/col-main'
-import Extra from '../components/col-extra'
+import Layout from '../components/layout/layout'
+import Main from '../components/col/col-main'
+import Extra from '../components/col/col-extra'
 import useWindowSize from '../hooks/useWindowSize'
 
 function Conversation() {
@@ -13,7 +13,7 @@ function Conversation() {
       <Main>
       <h1 style={{color:'red'}}>Conversations</h1>
       </Main>
-      {size.width > SIZES.MOBILE_SIZE && <Extra id={'conversation'}>Extra</Extra>}
+      {size.width > SIZES.DESKTOP_SIZE && <Extra id={'conversation'}>Extra</Extra>}
     </Layout>
   )
 }

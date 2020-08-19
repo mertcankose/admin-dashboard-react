@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import { SIZES } from '../constants/index'
-import Layout from '../components/layout'
-import Main from '../components/col-main'
-import Extra from '../components/col-extra'
+import Layout from '../components/layout/layout'
+import Main from '../components/col/col-main'
+import Extra from '../components/col/col-extra'
 import useWindowSize from '../hooks/useWindowSize'
-import MainContentThird from '../components/main-content-third'
+import MainContentSecond from '../components/mainContent/main-content-second'
 
 function Meeting() {
   const size = useWindowSize()
@@ -12,9 +12,9 @@ function Meeting() {
   return (
     <Layout>
       <Main>
-        <MainContentThird />
+        <MainContentSecond />
       </Main>
-      {size.width > SIZES.TABLET_SIZE && <Extra id={'meeting'}>Extra</Extra>}
+      {size.width > SIZES.DESKTOP_SIZE && <Extra id={'meeting'}>Extra</Extra>}
     </Layout>
   )
 }

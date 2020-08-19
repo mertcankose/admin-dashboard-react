@@ -1,0 +1,121 @@
+.apexBox {
+  display: flex;
+  flex-direction: column;
+  .apexBoxHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    @media (--d) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .columnBarBox {
+    width: 65%;
+    @media (--d) {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+  .graphsBox {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (--d) {
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    div {
+      margin-bottom: 60px;
+      @media (--d) {
+        margin-right: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .apexBoxBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (--d) {
+      flex-direction: column;
+    }
+    .donutBox {
+      width:35%;
+      flex-shrink: 0;
+      @media (--d){
+        width:60%;
+        margin-bottom:40px;
+      }
+    }
+    .personListBox {
+      padding: 20px;
+      width: 55%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 400px;
+      border: 1px solid var(--c-gray);
+      border-radius: 10px;
+      @media (--d) {
+        width: 100%;
+      }
+      .personListTop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h6{
+          font-size:20px;
+        }
+        button {
+          font-size: 12px;
+          padding: 4px;
+          color: var(--c-svg-color);
+          border: 1px solid currentColor;
+          border-radius: 6px;
+          background-color: #fff;
+          &:hover {
+            background-color: var(--c-button-background);
+            color: #fff;
+          }
+        }
+      }
+      .personListHeaders {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-top:14px;
+        .id {
+          flex-grow: 1;
+        }
+        .name {
+          flex-grow: 3;
+        }
+        .date {
+          flex-grow: 1;
+        }
+        .amount {
+          flex-grow: 1;
+        }
+      }
+      .transactionsBoxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        div {
+          margin-bottom: 14px;
+        }
+      }
+    }
+  }
+}

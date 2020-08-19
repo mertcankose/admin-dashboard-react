@@ -1,12 +1,12 @@
 import React from 'react'
 import { withKnobs, text, boolean, number } from '@storybook/addon-knobs'
-import Button from '../components/button'
-import NavigationButton from '../components/navigation-button'
-import Navigation from '../components/navigation'
+import Button from '../components/button/button'
+import NavigationButton from '../components/navigation/navigation-button'
+import Navigation from '../components/navigation/navigation'
 import { Dashboardİcon } from '../components/icons'
-import NavigationRight from '../components/navigation-right-first'
-import ThemeButton from '../components/theme-button'
-import Stack from '../components/stack'
+import NavigationRight from '../components/navigationRight/navigation-right-first'
+import ThemeButton from '../components/themeButton/theme-button'
+import Stack from '../components/stack/stack'
 
 
 export default {
