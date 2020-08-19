@@ -5,10 +5,10 @@
   width: 340px;
   height: 360px;
   background-color: var(--c-profile-box);
-  margin-right:20px;
-  margin:20px;
-  color:var(--c-secondary);
-  border:1px solid var(--c-profile-box-border);
+  margin-right: 20px;
+  margin: 20px;
+  color: var(--c-secondary);
+  border: 1px solid var(--c-navigation-link-color);
   border-radius: 10px;
   .head {
     display: flex;
@@ -73,15 +73,13 @@
       padding: 16px;
       display: flex;
       flex-direction: column;
-
+      
       span {
-        position: absolute;
       }
       svg {
-        width: 100%;
-        height: 100%;
-        position: relative;
-        bottom: 45px;
+        margin-top:4px;
+        font-size:45px;
+        color:var(--c-navigation-link-color);
       }
     }
   }

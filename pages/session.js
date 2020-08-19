@@ -5,6 +5,7 @@ import Main from '../components/col/col-main'
 import Extra from '../components/col/col-extra'
 import useWindowSize from '../hooks/useWindowSize'
 import MainContentFirst from '../components/mainContent/main-content-first'
+import ThemeSelect from '../components/themeSelect/theme-select'
 
 function Session() {
   const size = useWindowSize()
@@ -12,6 +13,7 @@ function Session() {
   return (
     <Layout>
       <Main>
+      <ThemeSelect />
         <MainContentFirst />
       </Main>
       {size.width > SIZES.DESKTOP_SIZE && <Extra id={'session'}>Extra</Extra>}

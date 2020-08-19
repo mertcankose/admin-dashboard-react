@@ -5,6 +5,7 @@ import Main from '../components/col/col-main'
 import Extra from '../components/col/col-extra'
 import useWindowSize from '../hooks/useWindowSize'
 import MainContentSecond from '../components/mainContent/main-content-second'
+import ThemeSelect from '../components/themeSelect/theme-select'
 
 function Meeting() {
   const size = useWindowSize()
@@ -12,6 +13,7 @@ function Meeting() {
   return (
     <Layout>
       <Main>
+        <ThemeSelect />
         <MainContentSecond />
       </Main>
       {size.width > SIZES.DESKTOP_SIZE && <Extra id={'meeting'}>Extra</Extra>}

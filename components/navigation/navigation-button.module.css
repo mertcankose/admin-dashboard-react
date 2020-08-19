@@ -12,14 +12,14 @@
 }
 
 .navButtonSelected{
-  background-color: var(--c-primary-40);
+  background-color: var(--c-selected-button);
 }
 
 .notify{
   position:absolute;
   left:32px;
   top: -10px;
-  background-color: var(--c-red);
+  background-color: var(--c-notify-background);
   color:#fff;
   //min-width:24px;
   height:28px;

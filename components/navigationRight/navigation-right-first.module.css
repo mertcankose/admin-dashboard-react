@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  color: var(--c-nav-right-color);
+  color: var(--c-secondary);
   width:100%;
   height: 54%;
 }
@@ -22,12 +22,11 @@
   font-size:54px;
   width: 1em;
   height: 1em;
-  background-color: var(--c-blue);
+  background-color: var(--c-notification-base-color);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  color: var(--c-nav-right-color);
   svg {
     font-size: 30px;
     color:#fff;

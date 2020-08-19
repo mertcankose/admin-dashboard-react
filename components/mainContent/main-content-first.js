@@ -4,12 +4,13 @@ import ProfileBox from '../profileBox/profileBox'
 import styles from './main-content-first.module.css'
 import Button from '../button/button'
 import * as Icon from '../icons'
+import TextTitle from '../textTitle/text-title'
 
 function MainContentFirst() {
   return (
     <div className={styles.mainBox}>
       <div className={styles.mainContentHeadBox}>
-        <h1>Session</h1>
+        <TextTitle bold>Session</TextTitle>
         <Button className={styles.exportButton}>
           <Icon.Fill2 />
           <span>Export</span>

@@ -6,8 +6,8 @@
     display: flex;
     justify-content: space-between;
     margin-left: 120px;
-    margin-bottom:50px;
-    h1 {
+    margin-bottom: 50px;
+    h6 {
       font-size: 32px;
       color: var(--c-secondary);
     }
@@ -15,7 +15,17 @@
       margin-right: 120px;
       border-radius: 8px;
       padding: 10px;
-      border: 1px solid var(--c-blue);
+      color: var(--c-navigation-link-color);
+      border: 1px solid currentColor;
+      background-color: var(--c-primary);
+      border-radius: 6px;
+      &:hover {
+        background-color: var(--c-button-background);
+        color: var(--c-primary);
+        svg {
+          color: var(--c-primary);
+        }
+      }
     }
     span {
       color: var(--c-blue);
@@ -29,7 +39,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  @media (-t){
+  @media (-t) {
     justify-content: center;
   }
 }

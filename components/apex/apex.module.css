@@ -47,11 +47,11 @@
       flex-direction: column;
     }
     .donutBox {
-      width:35%;
+      width: 35%;
       flex-shrink: 0;
-      @media (--d){
-        width:60%;
-        margin-bottom:40px;
+      @media (--d) {
+        width: 60%;
+        margin-bottom: 40px;
       }
     }
     .personListBox {
@@ -70,19 +70,23 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        h6{
-          font-size:20px;
+        h6 {
+          font-size: 20px;
+          color: var(--c-secondary);
         }
+
         button {
           font-size: 12px;
-          padding: 4px;
-          color: var(--c-svg-color);
+          background-color: #fff;
+          border-radius: 8px;
+          padding: 6px;
+          color: var(--c-navigation-link-color);
           border: 1px solid currentColor;
           border-radius: 6px;
-          background-color: #fff;
+          background-color: var(--c-primary);
           &:hover {
             background-color: var(--c-button-background);
-            color: #fff;
+            color: var(--c-primary);
           }
         }
       }
@@ -93,7 +97,8 @@
         justify-content: center;
         margin-left: 10px;
         margin-bottom: 10px;
-        margin-top:14px;
+        margin-top: 14px;
+        color:var(--c-secondary);
         .id {
           flex-grow: 1;
         }

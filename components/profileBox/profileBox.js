@@ -2,7 +2,8 @@ import React from 'react'
 import cn from 'classnames'
 import styles from './profileBox.module.css'
 import Photo from '../photo/photo'
-import { ShapeGraph } from '../icons'
+/*import { ShapeGraph } from '../icons'*/
+import EqualizerIcon from '@material-ui/icons/Equalizer';
 
 function ProfileBox({
   name = 'Samuel Spencer',
@@ -33,7 +34,7 @@ function ProfileBox({
         </div>
         <div className={styles.bottomBottom}>
           <span>Overall activity</span>
-          <ShapeGraph />
+          <EqualizerIcon />
         </div>
       </div>
     </div>

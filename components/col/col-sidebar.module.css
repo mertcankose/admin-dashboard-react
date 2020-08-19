@@ -5,7 +5,7 @@
   left: 0;
   bottom:0;
   background-color: var(--c-primary);
-  border-right: 1px solid var(--c-gray);
+  border-right: 1px solid var(--c-border-color);
   z-index: 999;
   @media (--t) {
     width: 80px;

@@ -6,7 +6,7 @@
   bottom:0;
   margin-left:auto;
   background-color: var(--c-primary);
-  border-left:1px solid var(--c-gray);
+  border-left:1px solid var(--c-border-color);
   width:340px;
     padding-left:24px;
   padding-right:20px;
