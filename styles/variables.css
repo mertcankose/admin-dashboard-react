@@ -25,6 +25,7 @@
   --c-mail-font-size: 11px;
   --c-role-font-size: 13px;
   --c-profile-bottom-fontSize: 20px;
+  --c-gray:#6e767d;
 
   /*
   --c-main-gray: #f4f8f9;
@@ -56,6 +57,7 @@
   --c-profile-role: #eeeeee;
   --c-invite-box-color: #fff;
   --c-search-icon: #fff;
+  --c-gray:#fff;
 
   /*
   --c-main-gray: #f4f8f9;
