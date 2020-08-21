@@ -30,8 +30,8 @@
         align-items: center;
         flex: 1;
         color: var(--c-gray);
-        &:first-child{
-          margin-left:-8px; /*optik hizalama*/
+        &:first-child {
+          margin-left: -8px; /*optik hizalama*/
         }
         .actionButton {
           color: inherit;
@@ -40,7 +40,7 @@
           }
         }
         > span {
-          font-size: .9em;
+          font-size: 0.9em;
         }
       }
     }

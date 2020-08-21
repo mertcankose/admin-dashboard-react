@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   const [theme, setTheme] = useState(null)
 
   /*UseLayoutEffect içinde planlanan güncellemeler, tarayıcının boyama şansı bulamadan eşzamanlı olarak temizlenir.*/
-  useLayoutEffect(() => {
+  useEffect(() => {
     const theme = localStorage.getItem('THEME') || 'light'
 
     setTheme(theme)
